@@ -38,7 +38,7 @@ class _CameraAppState extends State {
         child: Column(
           children: <Widget>[
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -71,8 +71,8 @@ class _CameraAppState extends State {
                 ? Container()
                 : Image.file(
                     _image,
-                    height: 300.00,
-                    width: 300.00,
+                    height: 150.00,
+                    width: 150.00,
                   ),
           ],
         ),
